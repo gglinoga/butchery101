@@ -977,7 +977,7 @@ section.services .service-item:hover .icon {
 /*============ 7. Stats Section ============*/
 
 .stats {
-    display: none;
+    /* display: none; */
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
