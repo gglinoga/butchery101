@@ -39,6 +39,7 @@ body {
     line-height: 1.65;
     color: #484848;
     -webkit-font-smoothing: antialiased;
+    background-color: rgba(254, 251, 240);
 }
 
 p {
@@ -537,7 +538,8 @@ nav.navbar .logo {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #fff;
+    color: rgba(254, 251, 240);
+    ;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -554,7 +556,7 @@ nav.navbar .nav-item {
     font-weight: 400;
     padding-right: 13px;
     padding-left: 13px;
-    color: #fff;
+    color: rgba(254, 251, 240);
     text-transform: uppercase;
 }
 
@@ -567,7 +569,7 @@ nav.navbar .nav-item:last-child {
 }
 
 nav.navbar .nav-item .nav-link {
-    color: #fff;
+    color: rgba(254, 251, 240);
     position: relative;
     text-decoration: none;
     padding: 0;
@@ -580,7 +582,7 @@ nav.navbar .nav-item .nav-link:before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: rgba(254, 251, 240);
     visibility: hidden;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
@@ -601,7 +603,7 @@ nav.fixed-top {
     position: fixed;
     padding-top: 13px;
     padding-bottom: 13px;
-    background-color: #fff;
+    background-color: rgba(254, 251, 240);
     -webkit-box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
 }
@@ -658,7 +660,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .banner .banner-caption {
     top: 50%;
     position: absolute;
-    color: #fff;
+    color: rgba(254, 251, 240);
     z-index: 11;
     width: 100%;
     -webkit-transform: translateY(-50%);
@@ -669,13 +671,13 @@ nav.fixed-top .nav-item .nav-link:before {
 .banner .banner-caption h1 {
     font-size: 88px;
     font-weight: 900;
-    color: #fff;
+    color: rgba(254, 251, 240);
 }
 
 .banner .banner-caption p {
     font-size: 24px;
     font-family: "Raleway", san-serif;
-    color: #eee;
+    color: rgba(254, 251, 240);
 }
 
 .cd-headline {
@@ -977,7 +979,7 @@ section.services .service-item:hover .icon {
 /*============ 7. Stats Section ============*/
 
 .stats {
-    /* display: none; */
+    display: none;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1076,7 +1078,7 @@ section.portfolio .portfolio-items .item .item-content:before {
     right: 10px;
     bottom: 10px;
     left: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(254, 251, 240);
     opacity: 0;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
@@ -1351,6 +1353,8 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
     transition: all .4s ease;
+    background-color: rgba(254, 251, 240);
+
 }
 
 .contact #contact-form .form-group textarea.form-control {
