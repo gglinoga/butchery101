@@ -1593,3 +1593,10 @@ section.banner-blog .banner-caption h1 {
         font-size: 32px;
     }
 }
+
+/*============ 15. Good Meat Section  ============*/
+
+.goodMeat {
+    margin: auto;
+    text-align: center;
+}
